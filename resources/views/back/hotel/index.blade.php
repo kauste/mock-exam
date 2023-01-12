@@ -27,7 +27,7 @@
                                 <td scope="row">{{$hotel->hotel_name}}</td>
                                 <td>{{$hotel->price}} eu.</td>
                                 <td>{{$hotel->duration}} days</td>
-                                <td>{{$hotel->country->country_name}}</td>
+                                <td>{{$hotel->country?->country_name}}</td>
 
                             <td>
                                 <a class="btn btn-outline-success m-2" href="{{route('hotel-edit', $hotel)}}">Edit</a>

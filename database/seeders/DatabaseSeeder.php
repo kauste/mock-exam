@@ -65,7 +65,7 @@ class DatabaseSeeder extends Seeder
                 'hotel_name' => $faker->firstNameFemale,
                 'price'=> rand(200, 999),
                 'duration' => rand(7,14),
-                'country_id'=> rand(0, count($countries)- 1)
+                'country_id'=> rand(1, count($countries))
             ]);
         }
     }

@@ -67,17 +67,6 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false" v-pre>
-                                Orders
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="{{ route('all-orders-list') }}">
-                                    All orders
-                                </a>
-                            </div>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false" v-pre>
                                 Hotels
                             </a>
 
@@ -87,6 +76,16 @@
                                 </a>
                                 <a class="dropdown-item" href="{{ route('hotel-create') }}">
                                     Create a new hotel
+                                </a>
+                            </div>
+                        </li>
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false" v-pre>
+                                Orders
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="{{ route('all-orders-list') }}">
+                                    All orders
                                 </a>
                             </div>
                         </li>
