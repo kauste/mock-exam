@@ -5,7 +5,7 @@
 
 # Beauty salon 'Ruby'
 
-This is my mock exame, based on CRUD and one-to-many relationship between tables and realized with Laravel.
+This is my mock exam, based on CRUD and one-to-many relationship between tables and realized with Laravel.
 
 ## Deepen my knowledge
 
