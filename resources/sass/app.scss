@@ -1,0 +1,22 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+body{
+    font-family: 'IM Fell English SC', serif;
+}
+.list-display{
+    display:flex;
+    justify-content: space-between;
+    font-size: 20px;
+    .controls{
+        display:flex;
+        justify-content: space-between;
+    }
+}
+.hotel-img{
+    height: 60px;
+    width: 60px;
+}
